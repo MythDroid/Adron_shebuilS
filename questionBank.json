@@ -1,0 +1,119 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "filler",
+      "text": "Biryani or pasta?",
+      "options": ["Biryani", "Pasta"],
+      "scoring": null
+    },
+    {
+      "id": "q2",
+      "type": "aesthetic",
+      "text": "Gold sunset or silver moonlight?",
+      "options": ["Gold sunset", "Silver moonlight"],
+      "scoring": {
+        "Gold sunset": { "metalWarmth": 2, "boldness": 0, "stonePreference": null, "styleCategory": null },
+        "Silver moonlight": { "metalWarmth": -2, "boldness": 0, "stonePreference": null, "styleCategory": null }
+      }
+    },
+    {
+      "id": "q3",
+      "type": "filler",
+      "text": "Morning person or night owl?",
+      "options": ["Morning person", "Night owl"],
+      "scoring": null
+    },
+    {
+      "id": "q4",
+      "type": "style",
+      "text": "Bold red lipstick or your natural everyday look?",
+      "options": ["Bold red lipstick", "Natural everyday look"],
+      "scoring": {
+        "Bold red lipstick": { "metalWarmth": 0, "boldness": 2, "stonePreference": "colored", "styleCategory": "statement" },
+        "Natural everyday look": { "metalWarmth": 0, "boldness": -2, "stonePreference": "diamond", "styleCategory": "minimalist" }
+      }
+    },
+    {
+      "id": "q5",
+      "type": "aesthetic",
+      "text": "Minimalist room or maximalist room?",
+      "options": ["Minimalist room", "Maximalist room"],
+      "scoring": {
+        "Minimalist room": { "metalWarmth": 0, "boldness": -2, "stonePreference": null, "styleCategory": "minimalist" },
+        "Maximalist room": { "metalWarmth": 0, "boldness": 2, "stonePreference": null, "styleCategory": "statement" }
+      }
+    },
+    {
+      "id": "q6",
+      "type": "filler",
+      "text": "Coffee or tea?",
+      "options": ["Coffee", "Tea"],
+      "scoring": null
+    },
+    {
+      "id": "q7",
+      "type": "style",
+      "text": "Do you like one piece to stand out, or everything to match?",
+      "options": ["One piece to stand out", "Everything to match"],
+      "scoring": {
+        "One piece to stand out": { "metalWarmth": 0, "boldness": 2, "stonePreference": "colored", "styleCategory": "statement" },
+        "Everything to match": { "metalWarmth": 0, "boldness": -1, "stonePreference": "diamond", "styleCategory": "classic" }
+      }
+    },
+    {
+      "id": "q8",
+      "type": "aesthetic",
+      "text": "Cozy cabin or modern loft?",
+      "options": ["Cozy cabin", "Modern loft"],
+      "scoring": {
+        "Cozy cabin": { "metalWarmth": 2, "boldness": 0, "stonePreference": null, "styleCategory": "vintage" },
+        "Modern loft": { "metalWarmth": -2, "boldness": 0, "stonePreference": null, "styleCategory": "minimalist" }
+      }
+    },
+    {
+      "id": "q9",
+      "type": "filler",
+      "text": "Dogs or cats?",
+      "options": ["Dogs", "Cats"],
+      "scoring": null
+    },
+    {
+      "id": "q10",
+      "type": "style",
+      "text": "Bright colours or neutral tones in your wardrobe?",
+      "options": ["Bright colours", "Neutral tones"],
+      "scoring": {
+        "Bright colours": { "metalWarmth": 1, "boldness": 1, "stonePreference": "colored", "styleCategory": null },
+        "Neutral tones": { "metalWarmth": -1, "boldness": -1, "stonePreference": "diamond", "styleCategory": null }
+      }
+    },
+    {
+      "id": "q11",
+      "type": "aesthetic",
+      "text": "Vintage or contemporary style?",
+      "options": ["Vintage", "Contemporary"],
+      "scoring": {
+        "Vintage": { "metalWarmth": 1, "boldness": 1, "stonePreference": "colored", "styleCategory": "vintage" },
+        "Contemporary": { "metalWarmth": -1, "boldness": 0, "stonePreference": "diamond", "styleCategory": "minimalist" }
+      }
+    },
+    {
+      "id": "q12",
+      "type": "style",
+      "text": "Would you rather stand out in a crowd or blend in comfortably?",
+      "options": ["Stand out in a crowd", "Blend in comfortably"],
+      "scoring": {
+        "Stand out in a crowd": { "metalWarmth": 0, "boldness": 2, "stonePreference": null, "styleCategory": "statement" },
+        "Blend in comfortably": { "metalWarmth": 0, "boldness": -2, "stonePreference": null, "styleCategory": "classic" }
+      }
+    },
+    {
+      "id": "q13",
+      "type": "filler",
+      "text": "Beach vacation or mountain cabin?",
+      "options": ["Beach vacation", "Mountain cabin"],
+      "scoring": null
+    }
+  ]
+}
